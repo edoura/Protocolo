@@ -1,0 +1,361 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"publci",
+				"publicoAlvo"
+			],
+			[
+				"pub",
+				"publicoAlvo"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"e",
+				"exibir"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"CURL",
+				"CURLOPT_CUSTOMREQUEST"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"con",
+				"consumer"
+			],
+			[
+				"C",
+				"Consumers"
+			],
+			[
+				"cur",
+				"curl_close"
+			],
+			[
+				"http_bu",
+				"http_build_query"
+			],
+			[
+				"put",
+				"put"
+			],
+			[
+				"co",
+				"connection"
+			],
+			[
+				"db",
+				"db_password"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 76.0,
+		"last_filter": "intal",
+		"selected_items":
+		[
+			[
+				"intal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/api/app/libs/connect.php",
+		"/home/edoura/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/edoura/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/edoura/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/edoura/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/demo/plugins/cacheresource.memcache.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/demo/plugins/cacheresource.apc.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/demo/configs/test.conf",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/demo/index.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/composer.json",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/change_log.txt",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/SMARTY_3.1_NOTES.txt",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/SMARTY_3.0_BC_NOTES.txt",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/SMARTY_2_BC_NOTES.txt",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/README.md",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/README",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/INHERITANCE_RELEASE_NOTES.txt",
+		"/opt/lampp/htdocs/clienteRest/vendor/composer/installed.json",
+		"/opt/lampp/htdocs/clienteRest/vendor/composer/autoload_real.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/composer/autoload_psr4.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/composer/autoload_namespaces.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/composer/autoload_classmap.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/composer/ClassLoader.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/autoload.php",
+		"/opt/lampp/htdocs/clienteRest/temp/templates_c/e54b683c7313c715b0647c66d8cab333c14797ba.file.header.html.php",
+		"/opt/lampp/htdocs/clienteRest/temp/templates_c/b4947dc3c53e6d68a315fa07d8ab8b8e1fce5b92.file.books.html.php",
+		"/opt/lampp/htdocs/clienteRest/temp/templates_c/a7d8799cd302fd47babc67966248b60291d24741.file.book.html.php",
+		"/opt/lampp/htdocs/clienteRest/temp/templates_c/7926b5bcdcb1ae700bcd880510ea2ed4962284b4.file.cadastro.html.php",
+		"/opt/lampp/htdocs/clienteRest/temp/templates_c/3ad2099c177df7e9a44d118e37c0d741ce0a1c47.file.footer.html.php",
+		"/opt/lampp/htdocs/clienteRest/temp/templates_c/36b7ccbd253d8033d09c28fcf6ebbd32e001ac8b.file.body.html.php",
+		"/opt/lampp/htdocs/clienteRest/controllers/books.php",
+		"/opt/lampp/htdocs/clienteRest/consumers/consumer.php",
+		"/opt/lampp/htdocs/clienteRest/sm.php",
+		"/opt/lampp/htdocs/clienteRest/index.php2",
+		"/opt/lampp/htdocs/clienteRest/index.php1",
+		"/opt/lampp/htdocs/clienteRest/index.php",
+		"/opt/lampp/htdocs/clienteRest/composer.phar",
+		"/opt/lampp/htdocs/clienteRest/composer.lock",
+		"/opt/lampp/htdocs/clienteRest/composer.json",
+		"/opt/lampp/htdocs/clienteRest/books.php",
+		"/opt/lampp/htdocs/clienteRest/book.php",
+		"/opt/lampp/htdocs/clienteRest/view/fonts/glyphicons-halflings-regular.woff",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/plugins/modifiercompiler.wordwrap.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/plugins/modifiercompiler.count_words.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/plugins/shared.mb_wordwrap.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_while.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/sysplugins/smarty_internal_write_file.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/demo/plugins/resource.mysql.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_private_special_variable.php",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/debug.tpl",
+		"/opt/lampp/htdocs/clienteRest/vendor/smarty/smarty/libs/plugins/function.html_select_time.php",
+		"/opt/lampp/htdocs/api/vendor/slim/slim/LICENSE",
+		"/opt/lampp/htdocs/api/vendor/slim/slim/CONTRIBUTING.md",
+		"/opt/lampp/htdocs/api/vendor/slim/slim/.travis.yml",
+		"/opt/lampp/htdocs/api/vendor/slim/slim/.htaccess",
+		"/opt/lampp/htdocs/api/vendor/slim/slim/.gitignore",
+		"/opt/lampp/htdocs/api/vendor/composer/installed.json",
+		"/opt/lampp/htdocs/api/vendor/composer/autoload_real.php",
+		"/opt/lampp/htdocs/api/vendor/composer/autoload_psr4.php",
+		"/opt/lampp/htdocs/api/vendor/composer/autoload_namespaces.php",
+		"/opt/lampp/htdocs/api/vendor/composer/autoload_classmap.php",
+		"/opt/lampp/htdocs/api/vendor/composer/ClassLoader.php",
+		"/opt/lampp/htdocs/api/vendor/autoload.php",
+		"/opt/lampp/htdocs/api/app/routes/api.php",
+		"/opt/lampp/htdocs/api/index.php",
+		"/opt/lampp/htdocs/api/composer.phar",
+		"/opt/lampp/htdocs/api/composer.lock",
+		"/opt/lampp/htdocs/api/composer.json",
+		"/opt/lampp/htdocs/api/README.md",
+		"/opt/lampp/htdocs/api/.htaccess",
+		"/opt/lampp/htdocs/api/.gitignore",
+		"/opt/lampp/htdocs/ongbook/view/tabDescEntidade.html",
+		"/opt/lampp/htdocs/ongbook/view/preCadastro.html",
+		"/opt/lampp/htdocs/ongbook/vendor/smarty/smarty/libs/plugins/modifiercompiler.strip_tags.php",
+		"/opt/lampp/htdocs/ongbook/vendor/smarty/smarty/libs/plugins/function.html_select_time.php",
+		"/opt/lampp/htdocs/ongbook/vendor/smarty/smarty/libs/plugins/modifiercompiler.count_sentences.php",
+		"/opt/lampp/htdocs/ongbook/vendor/smarty/smarty/libs/sysplugins/smarty_internal_compile_private_object_function.php",
+		"/opt/lampp/htdocs/ongbook/vendor/composer/autoload_real.php",
+		"/opt/lampp/htdocs/ongbook/vendor/smarty/smarty/libs/plugins/outputfilter.trimwhitespace.php",
+		"/opt/lampp/htdocs/ongbook/view/header.html",
+		"/opt/lampp/htdocs/ongbook/view/headerApp.html",
+		"/opt/lampp/htdocs/ongbook/entidades.php",
+		"/opt/lampp/htdocs/ongbook/view/entidades.html",
+		"/opt/lampp/htdocs/ongbook/view/body.html",
+		"/opt/lampp/htdocs/ongbook/consumers/consumer.php",
+		"/opt/lampp/htdocs/ongbook/view/books.html",
+		"/opt/lampp/htdocs/ongbook/view/book.html",
+		"/opt/lampp/htdocs/ongbook/view/footer.html",
+		"/opt/lampp/htdocs/clienteRest/index.php3",
+		"/opt/lampp/htdocs/clienteRest/view/header.html",
+		"/opt/lampp/htdocs/clienteRest/view/body.html",
+		"/opt/lampp/htdocs/clienteRest/view/css/estilo.css",
+		"/opt/lampp/htdocs/clienteRest/css/estilo.css",
+		"/opt/lampp/htdocs/clienteRest/css/bootstrap.min.css",
+		"/opt/lampp/htdocs/clienteRest/view/footer.html",
+		"/home/edoura/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/opt/lampp/htdocs/slimtest/app/libs/connect.php",
+		"/opt/lampp/htdocs/slimtest/index.php",
+		"/opt/lampp/htdocs/slimtest/composer.json",
+		"/opt/lampp/htdocs/slimtest/.htaccess"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bootstrap.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

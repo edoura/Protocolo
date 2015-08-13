@@ -1,0 +1,84 @@
+<!-- Modal de Cadastro-->
+<div class="modal fade" id="cadastro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><span class="icon-modal glyphicon glyphicon-plus" aria-hidden="true"></span> Cadastro</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" action="">
+          <fieldset>
+            <!-- /.sem o legend -->
+            <div class="form-group">
+              <label for="processo" class="col-lg-2 control-label">Processo</label>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" id="processo" required>
+              </div>
+              <div class="col-lg-4">
+                <div class="input-append date input-group">
+                  <input type="text" class="form-control" id="dataEntradaProcesso" placeholder="Data de entrada" required><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="interessado" class="col-lg-2 control-label">Interessado</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="interessado" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="assunto" class="col-lg-2 control-label">Assunto</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="assunto" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="observacao" class="col-lg-2 control-label">Observação</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="observacao">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="destino" class="col-lg-2 control-label">Destino</label>
+              <div class="col-lg-6">
+                <select class="form-control" id="destino" required>
+                  <option value=""></option>
+                  <option value="DAP">DAP</option>
+                  <option value="DG">DG</option>
+                  <option value="CGAOF">CGAOF</option>
+                  <option value="CGGP">CGGP</option>
+                  <option value="CGGC">CGGC</option>
+                </select>
+              </div>
+              <div class="col-lg-4">
+                <div class="input-append date input-group">
+                  <input type="text" class="form-control" id="data" placeholder="Data" required><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+           <button type="reset" class="btn btn-primary">Limpar</button>
+           <button type="submit" class="btn btn-success">Cadastrar</button>
+         </div>
+       </fieldset>
+     </form>
+   </div>
+ </div>
+</div>
+
+<!-- Input data personalizado -->
+<script>
+  $('.input-append.date').datepicker({
+    format: "dd/mm/yyyy",
+    weekStart: 1,
+    todayBtn: "linked",
+    language: "pt-BR",
+    autoclose: true,
+    todayHighlight: true
+  });
+</script>
